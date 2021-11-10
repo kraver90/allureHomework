@@ -21,6 +21,7 @@ public class SelenideTest extends TestBase {
     @Feature("Github")
     @Story("Поиск issues в репозитории")
     @DisplayName("Selenide тест с Listener")
+
     public void testGithub() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
